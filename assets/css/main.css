@@ -29,23 +29,23 @@ body {
   @apply flex flex-col items-center justify-center text-center pb-10;
 }
 
-.sectionTitle {
+.section-title {
   @apply text-3xl md:text-5xl font-medium p-4 text-center;
 }
 
-.sectionSubtitle {
+.section-subtitle {
   @apply text-gray-500 text-center text-sm px-3;
 }
 
-.sectionBtn {
+.section-btn {
   @apply bg-primary border-primary border-2 p-4 sm:px-16 text-white transition-colors duration-300 hover:bg-white hover:text-black uppercase mt-4;
 }
 
-.textH {
+.text-h {
   @apply font-medium text-black inline;
 }
 
-.inputForm {
+.input-form {
   @apply border border-gray-300 rounded-sm p-2 my-2 cursor-pointer transition-colors duration-300 hover:border-primary;
 }
 .quantity-wrapper {
